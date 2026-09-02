@@ -11,7 +11,7 @@ Currently, the project includes:
 # Data Loading
 - The raw data is stored in a SQLite database:
 
--customer_churn.db
+customer_churn.db
 The database was connected using Python's sqlite3 library.
 The tables were loaded into Pandas DataFrames for further processing.
 
