@@ -91,23 +91,25 @@ Parquet format was used because it provides advantages such as:
 
 ```text
 churn_data_analysis/
+├── db/
+│   └── customer_churn.db
 │
 ├── cleaned_data/
 │   ├── df_customer_cleaned.parquet
 │   ├── df_subscription_cleaned.parquet
 │   └── df_support_cleaned.parquet
 │
-├── db/
-│   └── customer_churn.db
+├── merged_data/
+│   └── merged_churn_data.parquet
 │
 ├── notebook/
+│   ├── data_analysis.ipynb
 │   ├── data_cleaning.ipynb
 │   └── feature_engineering.ipynb
 │
-├── .gitignore
 ├── .gitattributes
+├── .gitignore
 └── README.md
-```
 
 ---
 
