@@ -97,7 +97,8 @@ churn_data_analysis/
 ├── cleaned_data/
 │   ├── df_customer_cleaned.parquet
 │   ├── df_subscription_cleaned.parquet
-│   └── df_support_cleaned.parquet
+│   ├── df_support_cleaned.parquet
+│   └── df_visual_data.parquet
 │
 ├── merged_data/
 │   └── merged_churn_data.parquet
@@ -105,7 +106,8 @@ churn_data_analysis/
 ├── notebook/
 │   ├── data_analysis.ipynb
 │   ├── data_cleaning.ipynb
-│   └── feature_engineering.ipynb
+│   ├── feature_engineering.ipynb
+│   └── visualization_using_matplotlib.ipynb
 │
 ├── .gitattributes
 ├── .gitignore
@@ -117,6 +119,6 @@ churn_data_analysis/
 
 - ✅ Data Loading Completed
 - ✅ Data Cleaning Completed
-- 🚧 Feature Engineering In Progress
-- ⏳ Exploratory Data Analysis Pending
-- ⏳ Machine Learning Pending
+- ✅ Feature Engineering completed
+- ✅ Exploratory Data Analysis completed
+- ⏳ Data visualization is in progress
