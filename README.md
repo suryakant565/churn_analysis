@@ -91,23 +91,29 @@ Parquet format was used because it provides advantages such as:
 
 ```text
 churn_data_analysis/
+│
+├── dashboard/
+│   └── customer_churn_dashboard.pbix
+│
+├── data/
+│   ├── cleaned_data/
+│   │   ├── churn_data.csv
+│   │   ├── df_customer_cleaned.parquet
+│   │   ├── df_subscription_cleaned.parquet
+│   │   ├── df_support_cleaned.parquet
+│   │   └── df_visual_data.parquet
+│   │
+│   └── merged_data/
+│       └── merged_churn_data.parquet
+│
 ├── db/
 │   └── customer_churn.db
-│
-├── cleaned_data/
-│   ├── df_customer_cleaned.parquet
-│   ├── df_subscription_cleaned.parquet
-│   ├── df_support_cleaned.parquet
-│   └── df_visual_data.parquet
-│
-├── merged_data/
-│   └── merged_churn_data.parquet
 │
 ├── notebook/
 │   ├── data_analysis.ipynb
 │   ├── data_cleaning.ipynb
 │   ├── feature_engineering.ipynb
-│   └── visualization_using_matplotlib.ipynb
+│   └── Visualization_using_Matplotlib.ipynb
 │
 ├── .gitattributes
 ├── .gitignore
@@ -121,4 +127,5 @@ churn_data_analysis/
 - ✅ Data Cleaning Completed
 - ✅ Feature Engineering completed
 - ✅ Exploratory Data Analysis completed
-- ⏳ Data visualization is in progress
+- ✅ Data visualization in matplotlib completed
+- ⏳ Dashboard work in progress
